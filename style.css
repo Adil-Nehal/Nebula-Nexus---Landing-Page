@@ -34,6 +34,50 @@ html{
   justify-content: space-evenly;
   width: 600px;
 }
+main{
+  padding: 0 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.title{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.title h1{
+  font-size: 4rem;
+  margin-top: -60px;
+  margin-bottom: 0;
+}
+.title .break{
+  display: block;
+  margin-top: -20px;
+}
+.title h3{
+  font-size: 3rem;
+  font-weight: normal;
+}
+.desc{
+  font-size: 1.2rem;
+  max-width: 550px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.87);
+
+}
+#student-img{
+  width: 300px;
+  object-fit: contain;
+}
+#about-btn{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
 @media only screen and (max-width: 768px) {
   #header{
     padding: 15px 30px;
@@ -49,5 +93,27 @@ html{
     font-size: 1rem;
     max-width: 350px;
     justify-content: space-evenly;
+  }
+  #student-img{
+    display: none;
+  }
+  main{
+    padding: 0px 40px;
+  }
+  .title h1{
+    font-size: 3rem;
+    margin-top: -45px;
+  }
+  .title h3{
+    font-size: 2rem;
+  }
+  .desc{
+    font-size: 1rem;
+  }
+  #about-btn{
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 500;
   }
 }
