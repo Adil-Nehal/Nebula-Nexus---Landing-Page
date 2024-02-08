@@ -59,9 +59,7 @@ main{
 .desc{
   font-size: 1.2rem;
   max-width: 550px;
-  font-weight: 500;
   color: rgba(0, 0, 0, 0.87);
-
 }
 #student-img{
   width: 300px;
@@ -91,7 +89,7 @@ main{
   }
   #nav-bar ul{
     font-size: 1rem;
-    max-width: 350px;
+    max-width: 300px;
     justify-content: space-evenly;
   }
   #student-img{
@@ -101,11 +99,15 @@ main{
     padding: 0px 40px;
   }
   .title h1{
-    font-size: 3rem;
-    margin-top: -45px;
+    font-size: 2.8rem;
+    margin-top: -40px;
   }
   .title h3{
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+  .title .break{
+    display: block;
+    margin-top: -15px;
   }
   .desc{
     font-size: 1rem;
@@ -115,5 +117,8 @@ main{
     font-size: 1rem;
     border-radius: 5px;
     font-weight: 500;
+  }
+  #nav-bar ul li:nth-child(3){
+    display: none;
   }
 }
